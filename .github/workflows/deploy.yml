@@ -3,7 +3,8 @@ name: Deploy Nginx to Kubernetes
 on:
   push:
     branches:
-      - feature/k8s-deploy
+      # - feature/k8s-deploy
+      - main
 
 jobs:
   build-and-deploy:
