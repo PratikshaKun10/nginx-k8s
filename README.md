@@ -1,10 +1,6 @@
 # nginx-k8s
 # Roadmap: Nginx on Kubernetes with GitHub Actions CI/CD
 
-Here's a complete roadmap to deploy an Nginx server on Kubernetes and automate it with GitHub Actions.
-
----
-
 ## 🗺️ Overview
 
 ```
