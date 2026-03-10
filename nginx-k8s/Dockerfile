@@ -1,3 +1,4 @@
+# This is simple nginx docker file
 FROM nginx:alpine
 
 RUN rm -rf /usr/share/nginx/html/*
