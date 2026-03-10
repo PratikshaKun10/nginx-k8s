@@ -1,4 +1,4 @@
-name: Deploy Nginx to Kubernetes
+name: build and push
 
 on:
   push:
