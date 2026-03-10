@@ -40,9 +40,4 @@ jobs:
           mkdir -p ~/.kube
           echo "${{ secrets.KUBE_CONFIG }}" | base64 -d > ~/.kube/config
 
-      # 6. Update image in deployment & apply
-      - name: Deploy to Kubernetes
-        run: |
-          kubectl set image deployment/nginx-deployment \
-            nginx=${{ secrets.DOCKER_USERNAME }}/my-nginx:${{ github.sha }}
-          kubectl rollout status deployment/nginx-deployment
+ 
